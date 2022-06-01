@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Little Bird Toy Site</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+</head>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Toys</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-16">Buy Toys</div>
+    <div class="w3-center w3-padding-16">Little Bird </div>
+  </div>
+</div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="file:///C:/Users/223LMaus/AppData/Local/Temp/atom-2022326-5488-vh58ld.cctb/Little%20Bird%20Toy%20Co%20Site%20Photos-20220322T121915Z-001.zip%20(Unzipped%20Files)-20220425T140348Z-001.zip/boat2.jpg" alt="boat" style="width:100%">
+      <h3>boat</h3>
+      <p>The Wooden boat is tons of fun</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="file:///C:/Users/223LMaus/AppData/Local/Temp/atom-2022326-5488-1lxucbz.0f97/Little%20Bird%20Toy%20Co%20Site%20Photos-20220322T121915Z-001.zip%20(Unzipped%20Files)-20220425T140348Z-001.zip/car3.jpg" alt="Car" style="width:100%">
+      <h3>Car</h3>
+      <p>The wooden car rolls around </p>
+    </div>
+    <div class="w3-quarter">
+      <img src="file:///C:/Users/223LMaus/AppData/Local/Temp/atom-2022326-5488-13i08ba.snpq/Little%20Bird%20Toy%20Co%20Site%20Photos-20220322T121915Z-001.zip%20(Unzipped%20Files)-20220425T140348Z-001.zip/plane3.jpg" alt="Plane" style="width:100%">
+      <h3>Plane</h3>
+      <p>Fly with the the wooden plane</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="file:///C:/Users/223LMaus/AppData/Local/Temp/atom-2022326-5488-13i08ba.snpq/Little%20Bird%20Toy%20Co%20Site%20Photos-20220322T121915Z-001.zip%20(Unzipped%20Files)-20220425T140348Z-001.zip/plane3.jpg" alt="Plane" style="width:100%">
+      <h3>train</h3>
+      <p>Go on an advanture with the wooden plane</p>
+    </div>
+  </div>
+
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="file:///C:/Users/223LMaus/AppData/Local/Temp/atom-2022326-5488-6ieiwb.nj5jx/Little%20Bird%20Toy%20Co%20Site%20Photos-20220322T121915Z-001.zip%20(Unzipped%20Files)-20220425T140348Z-001.zip/block1.jpg" alt="Black Pack" style="width:100%">
+      <h3>block pack</h3>
+      <p>build anything you want with the block pack</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="file:///C:/Users/223LMaus/AppData/Local/Temp/atom-2022326-5488-7uog3a.nbswd/Little%20Bird%20Toy%20Co%20Site%20Photos-20220322T121915Z-001.zip%20(Unzipped%20Files)-20220425T140348Z-001.zip/block2.jpg" alt="Block Fortress" style="width:100%">
+      <h3>block fortress</h3>
+      <p>Build an impenitrible fortress with wood blocks</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="file:///C:/Users/223LMaus/AppData/Local/Temp/atom-2022328-7464-jzjnem.je8r/Little%20Bird%20Toy%20Co%20Site%20Photos-20220322T121915Z-001.zip%20(Unzipped%20Files)-20220425T140348Z-001.zip/train1.jpg" alt="Full Train" style="width:100%">
+      <h3>Complete Train</h3>
+      <p>The complete train set</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="file:///C:/Users/223LMaus/AppData/Local/Temp/atom-2022328-7464-sr8sk.sjqfva/Little%20Bird%20Toy%20Co%20Site%20Photos-20220322T121915Z-001.zip%20(Unzipped%20Files)-20220425T140348Z-001.zip/block4.jpg" alt="Complete Box" style="width:100%">
+      <h3>Complete box</h3>
+      <p>COmplet set of all wooden materials</p>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+
+  <hr id="about">
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32 w3-center">
+    <h3>About the Toy Program</h3><br>
+    <img src="file:///C:/Users/223LMaus/AppData/Local/Temp/atom-2022328-7464-2j3auq.cs0of/Wooden%20Horse%20Toys%20Logo.zip%20(Unzipped%20Files)-20220425T140430Z-001.zip/Main%20Logo.png" alt="Me" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+    <div class="w3-padding-32">
+      <h4><b>We are Who We are</b></h4>
+      <h6><i>With Passion For Real, Good Toys</i></h6>
+      <p>The Little bird toy company has a lot of care for the toys we make.  We know whoever plays with these wooden toys will have a blast.  Thse toys are made by the best woodworkers in the entire world and we replant trees.</p>
+    </div>
+  </div>
+  <hr>
+
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <h3>FOOTER</h3>
+      <p>Call 1800-Bird-Toy for help
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+
+    <div class="w3-third">
+      <h3></h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large"></span><br>
+          <span></span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large"></span><br>
+          <span></span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-serif">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Bird</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Plane</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fun</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Toys</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Train</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">pack</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Wood</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Block</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Custom</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Car</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">kids</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Friendly</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Boat</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Safe</span>
+      </p>
+    </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
